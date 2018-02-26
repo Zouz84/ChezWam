@@ -1,4 +1,4 @@
-.table {
+.titres {
 	display: flex;
 	justify-content: space-around;
 	text-align: center;
@@ -6,8 +6,11 @@
 	padding-right: 25%;
 }
 
-.un {
+.deux {
 	display: flex;
 	flex-direction: column;
 
+}
+.texte {
+	text-align: justify;
 }
