@@ -17,7 +17,7 @@ Cette div fait son taff, elle contient:<br/>
 <br/>
 La logique étant:<br/>
 
-"Bon j'arrive sur le site, il n'y a aucun **texte** de visible, seul les **titres** ".<br/>
+*"Bon j'arrive sur le site, il n'y a aucun **texte** de visible, seul les **titres** "*.<br/>
 
 
 
