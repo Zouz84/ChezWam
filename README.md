@@ -19,6 +19,13 @@ La logique étant:<br/>
 
 *"Bon j'arrive sur le site, il n'y a aucun **texte** de visible, seul les **titres** "*.<br/>
 Du coup je `.hide()` mes 3 textes (à noter, j'annonce à Js que je vais utiliser du jQuery avec le fameux `$(document).ready(function() { blablabla });:` pour qu'il soit 'ready').
+```JavaScript
+$(document).ready(function() {
+    $(".textun").hide();
+    $(".textdeux").hide();
+    $(".texttrois").hide();
+```
+
 
 
 
