@@ -16,7 +16,7 @@ Cette div fait son taff, elle contient:<br/>
 * La Div **"textos"** qui envoie des Sms. Non, c'est pas la même chose. Div qui regroupe 3 **p**aragraphes de texte (soit *textun*, *textdeux*, *texttrois*). Chacun de ces paragraphes etant classés dans une div de classe **"un"**.
 <br/>
 La logique étant:<br/>
-*"Bon j'arrive sur le site, il n'y a aucun **texte** de visible, seul les **titres**"*.<br/>
+_"Bon j'arrive sur le site, il n'y a aucun **texte** de visible, seul les **titres**"_.<br/>
 Du coup je `.hide()` mes 3 textes (à noter, j'annonce à Js que je vais utiliser du jQuery avec le fameux `$(document).ready(function() { blablabla });:` pour qu'il soit 'ready').
 ```JavaScript
 $(document).ready(function() {
