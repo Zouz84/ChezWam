@@ -2,7 +2,27 @@
 <html>
   <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script>
+
+
+    <title>CHEZ WAM</title>
+
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+  	<%= render 'layouts/header' %>
+  	
+  	<div class="yield">
+    <%= yield %>
+    </div>
+
+
+
+  </body>
+      <script>
 $(document).ready(function() {
     $(".textun").hide();
     $(".textdeux").hide();
@@ -57,20 +77,4 @@ function showSlides(n) {
 
 }
 </script>
-
-    <title>CHEZ WAM</title>
-
-    <%= csrf_meta_tags %>
-
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-  </head>
-
-  <body>
-  	<%= render 'layouts/header' %>
-  	
-  	<div class="yield">
-    <%= yield %>
-    </div>
-  </body>
 </html>

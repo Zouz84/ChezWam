@@ -14,6 +14,15 @@
 .textos {
 	text-align: justify;
 }
+.un {
+	text-align: justify;
+    -moz-text-align-last: center;
+    text-align-last: center;
+	padding-left: 25%;
+	padding-right: 25%;
+	margin-top: 5%;
+}
+
 
 .jumbotron {
 	padding-top: 10%;
@@ -103,7 +112,7 @@
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 5s;
+  -webkit-animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s;
 }
