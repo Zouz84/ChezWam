@@ -4,23 +4,23 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
 $(document).ready(function() {
-    $(".text1").hide();
-    $(".text2").hide();
-    $(".text3").hide();
+    $(".textun").hide();
+    $(".textdeux").hide();
+    $(".texttrois").hide();
 $(".pres").click(function() {
-      $(".text1").toggle();
-      $(".text2").hide();
-      $(".text3").hide();
+      $(".textun").toggle();
+      $(".textdeux").hide();
+      $(".texttrois").hide();
 });
 $(".menu").click(function() {
-      $(".text1").hide();
-      $(".text2").toggle();
-      $(".text3").hide();
+      $(".textun").hide();
+      $(".textdeux").toggle();
+      $(".texttrois").hide();
 });
 $(".services").click(function() {
-      $(".text1").hide();
-      $(".text2").hide();
-      $(".text3").toggle();
+      $(".textun").hide();
+      $(".textdeux").hide();
+      $(".texttrois").toggle();
 });
 });
  $(document).ready(function() {
@@ -54,6 +54,7 @@ function showSlides(n) {
   }
   slides[slideIndex-1].style.display = "block"; 
   dots[slideIndex-1].className += " active";
+
 }
 </script>
 
